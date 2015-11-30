@@ -1,0 +1,23 @@
+{
+  "name": "fis3-deploy-skip-packed",
+  "version": "0.0.1",
+  "description": "Skip being packed files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fex-team/fis3-deploy-skip-packed.git"
+  },
+  "keywords": [
+    "fis3",
+    "extlang"
+  ],
+  "author": "fis",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fex-team/fis3-deploy-skip-packed/issues"
+  },
+  "homepage": "https://github.com/fex-team/fis3-deploy-skip-packed",
+}
