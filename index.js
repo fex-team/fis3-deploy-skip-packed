@@ -13,7 +13,7 @@ module.exports = function(options, modified, total, callback) {
     }
   }
 
-  i = total.length;
+  i = total.length - 1;
   while ((file = total[i--])) {
     if (file.map && (file.map.pkg || file.map.aioPkg || file.map.cssspritePkg)) {
       total.splice(i + 1, 1);
