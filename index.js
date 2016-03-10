@@ -59,7 +59,6 @@ module.exports = function(options, modified, total, callback) {
 
       // 检查是否 ignore 了
       if (ignore && isIgnored(file.subpath)) {
-        console.log(file.subpath);
         continue;
       }
 
